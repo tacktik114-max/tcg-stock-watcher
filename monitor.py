@@ -38,13 +38,21 @@ STATE_DIR = ROOT / "state"
 CONFIG_PATH = ROOT / "config.yml"
 
 UA = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 )
 HEADERS = {
     "User-Agent": UA,
-    "Accept": "application/json, text/html;q=0.9,*/*;q=0.8",
-    "Accept-Language": "nl-NL,nl;q=0.9,en;q=0.8",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7",
+    "sec-ch-ua": '"Chromium";v="126", "Not.A/Brand";v="24"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"macOS"',
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Upgrade-Insecure-Requests": "1",
+    "Connection": "keep-alive",
 }
 
 TIMEOUT = 25
@@ -66,8 +74,43 @@ def log(msg: str) -> None:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
 
 
-def get(url: str, **kwargs) -> requests.Response:
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, **kwargs)
+def env(name: str, default: str = "") -> str:
+    """os.environ.get(), maar een lege waarde telt als 'niet ingesteld'.
+    GitHub Actions geeft niet-bestaande secrets door als lege string."""
+    value = os.environ.get(name, "").strip()
+    return value or default
+
+
+def make_session(site: dict | None = None) -> requests.Session:
+    """Sessie die eerst de homepage bezoekt, zodat we cookies hebben staan
+    voordat we de API aanroepen — net als een echte browser."""
+    s = requests.Session()
+    s.headers.update(HEADERS)
+    if site and site.get("warmup", True):
+        try:
+            s.get(site["base_url"].rstrip("/") + "/", timeout=TIMEOUT)
+            time.sleep(1)
+        except requests.RequestException:
+            pass
+    return s
+
+
+def get(url: str, session: requests.Session | None = None,
+        referer: str | None = None, **kwargs) -> requests.Response:
+    headers = {}
+    if referer:
+        headers["Referer"] = referer
+        headers["Sec-Fetch-Site"] = "same-origin"
+    if ".json" in url or "wp-json" in url or "rest_route" in url:
+        headers["Accept"] = "application/json, text/plain, */*"
+        headers["Sec-Fetch-Dest"] = "empty"
+        headers["Sec-Fetch-Mode"] = "cors"
+        headers["X-Requested-With"] = "XMLHttpRequest"
+
+    if session is not None:
+        r = session.get(url, headers=headers, timeout=TIMEOUT, **kwargs)
+    else:
+        r = requests.get(url, headers={**HEADERS, **headers}, timeout=TIMEOUT, **kwargs)
     r.raise_for_status()
     return r
 
@@ -96,6 +139,7 @@ def fetch_woocommerce(site: dict) -> list[dict]:
     max_pages = int(site.get("max_pages", 10))
     per_page = int(site.get("per_page", 100))
     products: list[dict] = []
+    session = make_session(site)
 
     for page in range(1, max_pages + 1):
         params = {"per_page": per_page, "page": page}
@@ -104,7 +148,7 @@ def fetch_woocommerce(site: dict) -> list[dict]:
         if site.get("search"):
             params["search"] = site["search"]
 
-        r = get(base + endpoint, params=params)
+        r = get(base + endpoint, session=session, referer=base + "/", params=params)
         batch = r.json()
         if not batch:
             break
@@ -133,9 +177,10 @@ def fetch_shopify(site: dict) -> list[dict]:
     path = site.get("endpoint", "/products.json")
     max_pages = int(site.get("max_pages", 5))
     products: list[dict] = []
+    session = make_session(site)
 
     for page in range(1, max_pages + 1):
-        r = get(base + path, params={"limit": 250, "page": page})
+        r = get(base + path, session=session, referer=base + "/", params={"limit": 250, "page": page})
         batch = r.json().get("products", [])
         if not batch:
             break
@@ -169,9 +214,10 @@ def fetch_html(site: dict) -> list[dict]:
     """Laatste redmiddel: HTML scrapen met CSS-selectors uit de config."""
     sel = site.get("selectors", {})
     products: list[dict] = []
+    session = make_session(site)
 
     for url in site.get("urls", [site["base_url"]]):
-        r = get(url)
+        r = get(url, session=session, referer=site["base_url"])
         soup = BeautifulSoup(r.text, "html.parser")
 
         for card in soup.select(sel.get("product", "li.product")):
@@ -269,9 +315,9 @@ def save_state(site_name: str, products: dict) -> None:
 
 class Notifier:
     def __init__(self, cfg: dict, dry_run: bool = False):
-        self.server = os.environ.get("NTFY_SERVER", cfg.get("server", "https://ntfy.sh")).rstrip("/")
-        self.topic = os.environ.get("NTFY_TOPIC", cfg.get("topic", ""))
-        self.token = os.environ.get("NTFY_TOKEN", cfg.get("token", ""))
+        self.server = env("NTFY_SERVER", cfg.get("server") or "https://ntfy.sh").rstrip("/")
+        self.topic = env("NTFY_TOPIC", cfg.get("topic") or "")
+        self.token = env("NTFY_TOKEN", cfg.get("token") or "")
         self.dry_run = dry_run
         if not self.topic:
             raise SystemExit("Geen ntfy-topic ingesteld (config.yml of NTFY_TOPIC).")
