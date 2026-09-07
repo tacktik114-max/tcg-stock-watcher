@@ -1,0 +1,46 @@
+name: TCG Stock Watch
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # elke 10 minuten (GitHub kan enkele minuten uitlopen)
+  workflow_dispatch:          # handmatig startbaar vanuit de Actions-tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Check webshops
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        run: python monitor.py
+
+      - name: Sla nieuwe status op
+        run: |
+          if [[ -n "$(git status --porcelain state/)" ]]; then
+            git config user.name "stock-watcher"
+            git config user.email "actions@github.com"
+            git add state/
+            git commit -m "state: $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git pull --rebase --autostash || true
+            git push
+          else
+            echo "Geen wijzigingen in state/"
+          fi
