@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------
+# TCG Stock Watcher — configuratie
+# ---------------------------------------------------------------
+
+ntfy:
+  server: https://ntfy.sh
+  # Laat leeg als je de topic als GitHub secret zet (NTFY_TOPIC).
+  # Een topic is in feite je wachtwoord: kies iets onraadbaars.
+  topic: ""
+
+settings:
+  max_notifications: 12      # meer wijzigingen in één run => één samenvatting
+  notify_price_drops: false  # melding bij >5% prijsdaling
+  notify_out_of_stock: false # melding als iets juist uitverkocht raakt
+  notify_errors: true        # melding als een site onbereikbaar is
+
+sites:
+  # -------------------------------------------------------------
+  - name: CatchYourCards
+    enabled: true
+    adapter: woocommerce          # WooCommerce Store API (publiek)
+    base_url: https://catchyourcards.nl
+    max_pages: 10
+    per_page: 100
+    # Filters (leeg = alles). Hoofdletterongevoelig, deelwoorden.
+    include: []                   # bv. ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat"]
+    max_price:                    # bv. 300 om dure singles te negeren
+
+  # -------------------------------------------------------------
+  # Voorbeelden voor extra shops — zet enabled: true als je ze wilt.
+  # -------------------------------------------------------------
+  - name: CeesCards
+    enabled: false
+    adapter: shopify              # probeer eerst shopify, anders woocommerce
+    base_url: https://ceescards.eu
+    max_pages: 5
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader"]
+
+  - name: PKMkaarten
+    enabled: false
+    adapter: woocommerce
+    base_url: https://www.pkmkaarten.nl
+    max_pages: 10
+    exclude: ["sleeve", "toploader"]
+
+  # Laatste redmiddel als een shop geen API heeft: HTML scrapen.
+  - name: VoorbeeldHTMLshop
+    enabled: false
+    adapter: html
+    base_url: https://voorbeeld.nl
+    urls:
+      - https://voorbeeld.nl/pokemon/
+      - https://voorbeeld.nl/pokemon/page/2/
+    selectors:
+      product: "li.product"
+      link: "a.woocommerce-LoopProduct-link"
+      name: "h2"
+      price: ".price"
+      out_of_stock_text: ["uitverkocht", "sold out", "niet op voorraad"]
