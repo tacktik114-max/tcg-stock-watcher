@@ -1,61 +1,164 @@
 # ---------------------------------------------------------------
 # TCG Stock Watcher — configuratie
+# Shops getest op 8 september 2026 via diagnose_all.py
 # ---------------------------------------------------------------
 
 ntfy:
   server: https://ntfy.sh
-  # Laat leeg als je de topic als GitHub secret zet (NTFY_TOPIC).
-  # Een topic is in feite je wachtwoord: kies iets onraadbaars.
-  topic: ""
+  topic: ""          # leeg laten: komt uit het GitHub secret NTFY_TOPIC
 
 settings:
-  max_notifications: 12      # meer wijzigingen in één run => één samenvatting
-  notify_price_drops: false  # melding bij >5% prijsdaling
-  notify_out_of_stock: false # melding als iets juist uitverkocht raakt
-  notify_errors: true        # melding als een site onbereikbaar is
+  max_notifications: 10      # meer wijzigingen per shop => één samenvatting
+  notify_price_drops: false
+  notify_out_of_stock: false
+  notify_errors: true
+
+# ---------------------------------------------------------------
+# Over de filters
+#
+#   include: filtert op woorden in de PRODUCTTITEL. De meeste shops
+#            zetten "Pokémon" in de titel, maar niet allemaal. Krijg je
+#            bij een shop 0 producten na filters, haal include dan leeg
+#            (include: []) en kijk wat er binnenkomt.
+#   exclude: accessoires eruit, anders krijg je meldingen over sleeves.
+#   max_price: laat leeg om alles te volgen.
+# ---------------------------------------------------------------
 
 sites:
-  # -------------------------------------------------------------
-  - name: CatchYourCards
-    enabled: true
-    adapter: woocommerce          # WooCommerce Store API (publiek)
-    base_url: https://catchyourcards.nl
-    max_pages: 10
-    per_page: 100
-    # Filters (leeg = alles). Hoofdletterongevoelig, deelwoorden.
-    include: []                   # bv. ["pokémon", "pokemon"]
-    exclude: ["sleeve", "toploader", "binder", "playmat"]
-    max_price:                    # bv. 300 om dure singles te negeren
 
-  # -------------------------------------------------------------
-  # Voorbeelden voor extra shops — zet enabled: true als je ze wilt.
-  # -------------------------------------------------------------
-  - name: CeesCards
-    enabled: false
-    adapter: shopify              # probeer eerst shopify, anders woocommerce
-    base_url: https://ceescards.eu
-    max_pages: 5
+  # ===== Shopify-shops =========================================
+  - name: BeamCardShop
+    enabled: true
+    adapter: shopify
+    base_url: https://beamcardshop.com
+    max_pages: 4
     include: ["pokémon", "pokemon"]
-    exclude: ["sleeve", "toploader"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: Bescards
+    enabled: true
+    adapter: shopify
+    base_url: https://www.bescards.com
+    max_pages: 4
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: DeBroergrot
+    enabled: true
+    adapter: shopify
+    base_url: https://www.debroergrot.nl
+    max_pages: 4
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: TcgReus
+    enabled: true
+    adapter: shopify
+    base_url: https://www.tcgreus.nl
+    max_pages: 4
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: RareCards
+    enabled: true
+    adapter: shopify
+    base_url: https://rarecards.nl
+    max_pages: 4
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: Pokeca
+    enabled: true
+    adapter: shopify
+    base_url: https://pokeca.nl
+    max_pages: 4
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: LichCards
+    enabled: true
+    adapter: shopify
+    base_url: https://lichcards.nl
+    max_pages: 4
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: Kyaro
+    enabled: true
+    adapter: shopify
+    base_url: https://kyaro.nl
+    max_pages: 4
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: TcgHolland
+    enabled: true
+    adapter: shopify
+    base_url: https://tcgholland.com
+    max_pages: 4
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: DaCardWorld
+    enabled: true
+    adapter: shopify
+    base_url: https://dacardworld.eu
+    max_pages: 4
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  # ===== WooCommerce-shops =====================================
+  - name: CeesCards
+    enabled: true
+    adapter: woocommerce
+    base_url: https://ceescards.eu
+    max_pages: 6
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
 
   - name: PKMkaarten
-    enabled: false
+    enabled: true
     adapter: woocommerce
     base_url: https://www.pkmkaarten.nl
-    max_pages: 10
-    exclude: ["sleeve", "toploader"]
+    max_pages: 6
+    include: []          # shop verkoopt vrijwel alleen Pokémon
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
 
-  # Laatste redmiddel als een shop geen API heeft: HTML scrapen.
-  - name: VoorbeeldHTMLshop
+  - name: DavidPTCG
+    enabled: true
+    adapter: woocommerce
+    base_url: https://davidptcg.nl
+    max_pages: 6
+    include: []          # Pokémon-specialist
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: ArlyTrading
+    enabled: true
+    adapter: woocommerce
+    base_url: https://arlytrading.nl
+    max_pages: 6
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  - name: ZyCards
+    enabled: true
+    adapter: woocommerce
+    base_url: https://zycards.nl
+    max_pages: 6
+    include: ["pokémon", "pokemon"]
+    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
+
+  # ===== Geblokkeerd door Cloudflare (niet vanaf GitHub) ========
+  # Deze twee geven 403 op elk verzoek vanaf een datacenter-IP.
+  # Alleen te monitoren vanaf een thuisverbinding.
+  - name: CatchYourCards
     enabled: false
-    adapter: html
-    base_url: https://voorbeeld.nl
-    urls:
-      - https://voorbeeld.nl/pokemon/
-      - https://voorbeeld.nl/pokemon/page/2/
-    selectors:
-      product: "li.product"
-      link: "a.woocommerce-LoopProduct-link"
-      name: "h2"
-      price: ".price"
-      out_of_stock_text: ["uitverkocht", "sold out", "niet op voorraad"]
+    adapter: woocommerce
+    base_url: https://catchyourcards.nl
+    max_pages: 6
+
+  - name: TcgCompany
+    enabled: false
+    adapter: woocommerce
+    base_url: https://tcgcompany.nl
+    max_pages: 6

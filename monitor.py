@@ -366,7 +366,7 @@ def check_site(site: dict, notifier: Notifier, settings: dict, dry_run: bool) ->
     adapter = ADAPTERS.get(site.get("adapter", "woocommerce"))
     if adapter is None:
         log(f"{name}: onbekende adapter '{site.get('adapter')}' — overgeslagen")
-        return 0
+        return {"seeded": None, "count": 0, "events": 0}
 
     log(f"{name}: ophalen…")
     try:
@@ -379,7 +379,7 @@ def check_site(site: dict, notifier: Notifier, settings: dict, dry_run: bool) ->
                 f"{type(e).__name__}: {str(e)[:180]}",
                 tags=["warning"], priority=2,
             )
-        return 0
+        return {"seeded": None, "count": 0, "events": 0}
 
     products = [p for p in raw if passes_filters(p, site)]
     log(f"{name}: {len(products)} producten na filters (van {len(raw)})")
@@ -422,19 +422,15 @@ def check_site(site: dict, notifier: Notifier, settings: dict, dry_run: bool) ->
     # Producten die verdwenen zijn: uit de state halen (niet melden).
     if first_run:
         log(f"{name}: eerste run — {len(products)} producten vastgelegd, geen meldingen")
-        notifier.send(
-            f"👀 Monitoring gestart: {name}",
-            f"{len(products)} producten vastgelegd. Je krijgt vanaf nu bericht bij "
-            f"nieuwe producten en restocks.",
-            click=site["base_url"], tags=["eyes"], priority=2,
-        )
     else:
         send_events(name, events, notifier, settings, site)
 
     if not dry_run:
         save_state(name, new_state)
 
-    return len(events)
+    if first_run:
+        return {"seeded": name, "count": len(products), "events": 0}
+    return {"seeded": None, "count": len(products), "events": len(events)}
 
 
 def send_events(site_name: str, events: list[dict], notifier: Notifier,
@@ -502,8 +498,22 @@ def main() -> int:
             return 1
 
     total = 0
+    seeded: list[tuple[str, int]] = []
     for site in sites:
-        total += check_site(site, notifier, settings, args.dry_run)
+        result = check_site(site, notifier, settings, args.dry_run)
+        total += result["events"]
+        if result["seeded"]:
+            seeded.append((result["seeded"], result["count"]))
+
+    # Eén gecombineerd bericht voor alle shops die net zijn toegevoegd,
+    # in plaats van een melding per shop.
+    if seeded:
+        lines = [f"• {n}: {c} producten" for n, c in seeded]
+        notifier.send(
+            f"👀 {len(seeded)} shop(s) toegevoegd",
+            "\n".join(lines) + "\n\nVanaf nu krijg je bericht bij nieuwe producten en restocks.",
+            tags=["eyes"], priority=2,
+        )
 
     log(f"Klaar — {total} melding(en) in totaal")
     return 0
