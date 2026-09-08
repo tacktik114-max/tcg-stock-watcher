@@ -14,7 +14,7 @@ concurrency:
   group: stock-watch
   # Een vastgelopen run blokkeert nu niet meer alle volgende runs.
   cancel-in-progress: true
-
+ 
 jobs:
   check:
     runs-on: ubuntu-latest
