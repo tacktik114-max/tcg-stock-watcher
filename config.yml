@@ -8,7 +8,8 @@ ntfy:
   topic: ""          # leeg laten: komt uit het GitHub secret NTFY_TOPIC
 
 settings:
-  max_notifications: 10      # meer wijzigingen per shop => één samenvatting
+  max_notifications: 20          # nieuwe producten: hierboven => één samenvatting per shop
+  max_restock_notifications: 25  # restocks krijgen ALTIJD een eigen melding met link
   notify_price_drops: false
   notify_out_of_stock: false
   notify_errors: true
@@ -136,14 +137,6 @@ sites:
     enabled: true
     adapter: woocommerce
     base_url: https://arlytrading.nl
-    max_pages: 6
-    include: ["pokémon", "pokemon"]
-    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
-
-  - name: ZyCards
-    enabled: true
-    adapter: woocommerce
-    base_url: https://zycards.nl
     max_pages: 6
     include: ["pokémon", "pokemon"]
     exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]

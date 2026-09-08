@@ -440,38 +440,58 @@ def send_events(site_name: str, events: list[dict], notifier: Notifier,
         return
 
     log(f"{site_name}: {len(events)} wijziging(en)")
-    cap = int(settings.get("max_notifications", 12))
-
-    # Te veel tegelijk (bv. hele nieuwe set online) → één samenvatting.
-    if len(events) > cap:
-        lines = [f"• {e['p']['name']}" for e in events[:20]]
-        rest = len(events) - len(lines)
-        if rest > 0:
-            lines.append(f"…en nog {rest} andere")
-        notifier.send(
-            f"🃏 {len(events)} wijzigingen bij {site_name}",
-            "\n".join(lines),
-            click=site["base_url"], tags=["card_index"], priority=4,
-        )
-        return
 
     meta = {
         "restock": ("🔥 Weer op voorraad", ["fire"], 5),
-        "new": ("🆕 Nieuw product", ["new"], 4),
+        "new": ("🆕 Nieuw", ["new"], 4),
         "price": ("📉 Prijs omlaag", ["chart_with_downwards_trend"], 3),
         "gone": ("❌ Uitverkocht", ["x"], 2),
     }
 
-    for e in events:
+    def send_one(e: dict) -> None:
         p = e["p"]
         prefix, tags, prio = meta[e["type"]]
         if e["type"] == "price":
             body = f"{fmt_price(e['old_price'])} → {fmt_price(p['price'])}\n{site_name}"
         else:
-            body = f"{fmt_price(p['price'])}\n{site_name}"
+            body = f"{fmt_price(p['price'])} — {site_name}\nTik om te openen"
         notifier.send(f"{prefix}: {p['name']}"[:120], body,
                       click=p["url"], tags=tags, priority=prio)
-        time.sleep(0.4)  # ntfy rate limit
+        time.sleep(0.4)
+
+    # Restocks zijn het meest urgent en krijgen ALTIJD een eigen melding
+    # met prijs en directe link — die wil je nooit in een samenvatting.
+    restocks = [e for e in events if e["type"] == "restock"]
+    rest = [e for e in events if e["type"] != "restock"]
+
+    for e in restocks[: int(settings.get("max_restock_notifications", 25))]:
+        send_one(e)
+
+    if not rest:
+        return
+
+    cap = int(settings.get("max_notifications", 20))
+    if len(rest) <= cap:
+        for e in rest:
+            send_one(e)
+        return
+
+    # Te veel losse meldingen (bv. een hele nieuwe set ineens online):
+    # één bericht per shop, mét prijs per product.
+    lines = []
+    for e in rest[:25]:
+        p = e["p"]
+        label = {"new": "🆕", "price": "📉", "gone": "❌"}[e["type"]]
+        lines.append(f"{label} {p['name']} — {fmt_price(p['price'])}")
+    over = len(rest) - len(lines)
+    if over > 0:
+        lines.append(f"…en nog {over} andere")
+
+    notifier.send(
+        f"🃏 {len(rest)} wijzigingen bij {site_name}",
+        "\n".join(lines),
+        click=site["base_url"], tags=["card_index"], priority=4,
+    )
 
 
 def main() -> int:
