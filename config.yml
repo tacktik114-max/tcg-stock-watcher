@@ -20,7 +20,9 @@ settings:
 #   include: filtert op woorden in de PRODUCTTITEL. De meeste shops
 #            zetten "Pokémon" in de titel, maar niet allemaal. Krijg je
 #            bij een shop 0 producten na filters, haal include dan leeg
-#            (include: []) en kijk wat er binnenkomt.
+#            (include: []) en kijk wat er binnenkomt. Levert dat alsnog
+#            0 op, dan geeft de API van die shop niets terug: uitzetten.
+#            Controleer dit in de logregel "X producten na filters (van Y)".
 #   exclude: accessoires eruit, anders krijg je meldingen over sleeves.
 #   max_price: laat leeg om alles te volgen.
 # ---------------------------------------------------------------
@@ -89,7 +91,7 @@ sites:
     adapter: shopify
     base_url: https://kyaro.nl
     max_pages: 4
-    include: ["pokémon", "pokemon"]
+    include: []          # gaf 0 na filters: shop zet "Pokémon" niet in de titel
     exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
 
   - name: TcgHolland
