@@ -1,0 +1,20 @@
+name: Diagnose shop
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Shop-URL, bijvoorbeeld https://catchyourcards.nl"
+        required: true
+        default: "https://catchyourcards.nl"
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python diagnose.py "${{ inputs.url }}"
