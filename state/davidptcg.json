@@ -1,0 +1,1845 @@
+{
+ "products": {
+  "3103": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Darkness Ablaze Booster Box",
+   "price": 329.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-darkness-ablaze-booster-box-acryl-2/"
+  },
+  "3105": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Lost Origin + Acryl",
+   "price": 619.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-lost-origin-acryl-2/"
+  },
+  "3107": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Booster Box + Acryl",
+   "price": 219.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-booster-box-acryl-2/"
+  },
+  "3109": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Brilliant Stars Booster Box + Acryl",
+   "price": 549.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-brilliant-stars-booster-box-acryl-2/"
+  },
+  "3111": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Vivid Voltage Booster Box + Acryl",
+   "price": 309.99,
+   "url": "https://davidptcg.nl/product/pokemon-vivid-voltage-booster-box-acryl-2/"
+  },
+  "3113": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Booster Bundle",
+   "price": 59.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-booster-bundle-2/"
+  },
+  "3115": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Crown Zenith Elite Trainer Box",
+   "price": 299.95,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-crown-zenith-elite-trainer-box-2/"
+  },
+  "3118": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Chaos Rising 3 Premium Checklane Blister Set",
+   "price": 6.95,
+   "url": "https://davidptcg.nl/product/pokemon-chaos-rising-3-premium-checklane-blister-set-2/"
+  },
+  "3120": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Chaos Rising Elite Trainer Box",
+   "price": 79.99,
+   "url": "https://davidptcg.nl/product/pokemon-chaos-rising-elite-trainer-box-2/"
+  },
+  "3126": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Chaos Rising Booster Box",
+   "price": 209.99,
+   "url": "https://davidptcg.nl/product/pokemon-chaos-rising-booster-box-2/"
+  },
+  "3130": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mew V Box Exclusive (Mewtwo Promo) Kleine damage Linksboven",
+   "price": 169.95,
+   "url": "https://davidptcg.nl/product/pokemon-mew-v-box-exclusive-mewtwo-promo-kleine-damage-linksboven-2/"
+  },
+  "3132": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Shining Fates Pikachu V Box Set",
+   "price": 47.95,
+   "url": "https://davidptcg.nl/product/pokemon-shining-fates-pikachu-v-box-set/"
+  },
+  "3134": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Champion’s Path Elite Trainer Box",
+   "price": 159.95,
+   "url": "https://davidptcg.nl/product/pokemon-champions-path-elite-trainer-box/"
+  },
+  "3136": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Lost Origin Elite Trainer Box",
+   "price": 199.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-lost-origin-elite-trainer-box/"
+  },
+  "3138": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Paradox Rift 3 Pack Blister",
+   "price": 20.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paradox-rift-3-pack-blister/"
+  },
+  "3140": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Elite Trainer Box Gardevoir POKEMONCENTER",
+   "price": 199.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-elite-trainer-box-gardevoir-pokemoncenter/"
+  },
+  "3142": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals Elite Trainer Box POKEMONCENTER",
+   "price": 549.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-elite-trainer-box-pokemoncenter/"
+  },
+  "3144": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Elite Trainer Box Case",
+   "price": 1999.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-elite-trainer-box-case/"
+  },
+  "3146": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Destined Rivals Checklane Blister Eevee",
+   "price": 21.95,
+   "url": "https://davidptcg.nl/product/pokemon-destined-rivals-checklane-blister-eevee/"
+  },
+  "3148": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Surging Sparks Booster Box DAMAGED",
+   "price": 229.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-surging-sparks-booster-box-damaged/"
+  },
+  "3152": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Combined Powers Premium Collection",
+   "price": 69.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-combined-powers-premium-collection/"
+  },
+  "3154": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Black Kyurem ex Box",
+   "price": 39.95,
+   "url": "https://davidptcg.nl/product/pokemon-black-kyurem-ex-box/"
+  },
+  "3156": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokemon VSTAR Universe Booster Box",
+   "price": 169.95,
+   "url": "https://davidptcg.nl/product/pokemon-vstar-universe-booster-box/"
+  },
+  "3158": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Crown Zenith Elite Trainer Box (KLEINE DAMAGE)",
+   "price": 269.95,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-crown-zenith-elite-trainer-box-kleine-damage/"
+  },
+  "3160": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes Elite Trainer Box DAMAGED",
+   "price": 134.95,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-elite-trainer-box-damaged/"
+  },
+  "3164": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes Elite Trainer Box Case",
+   "price": 1899.99,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-elite-trainer-box-case/"
+  },
+  "3169": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Astral Radiance Elite Trainer Box Case",
+   "price": 849.99,
+   "url": "https://davidptcg.nl/product/pokemon-astral-radiance-elite-trainer-box-case/"
+  },
+  "3171": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Black Bolt Elite Trainer Box Case",
+   "price": 949.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-black-bolt-elite-trainer-box-case/"
+  },
+  "3175": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Surging Sparks Pokémon Center Booster Bundle",
+   "price": 61.99,
+   "url": "https://davidptcg.nl/product/surging-sparks-pokemon-center-booster-bundle/"
+  },
+  "3177": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes Pokemon Center Elite Trainer Box",
+   "price": 499.99,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-pokemon-center-elite-trainer-box-kleine-damage/"
+  },
+  "3179": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Surging Sparks Booster pack 100x",
+   "price": 624.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-surging-sparks-booster-pack-100x/"
+  },
+  "3181": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Riftbound Spiritforged League of Legends Boosterbox Case",
+   "price": 899.95,
+   "url": "https://davidptcg.nl/product/riftbound-spiritforged-league-of-legends-boosterbox-case/"
+  },
+  "3182": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Perfect Order Booster Bundle PRE-ORDER",
+   "price": 39.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-perfect-order-booster-bundle-pre-order/"
+  },
+  "3184": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Perfect Order Booster Box Case",
+   "price": 1199.0,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-perfect-order-booster-box-case/"
+  },
+  "3186": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes Premium Poster Collection – Mega Lucario",
+   "price": 94.95,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-premium-poster-collection-mega-lucario/"
+  },
+  "3188": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes Premium Poster Collection – Mega Gardevoir",
+   "price": 159.95,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-premium-poster-collection-mega-gardevoir/"
+  },
+  "3190": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "One piece Heroines Edition Booster Box EB03",
+   "price": 259.95,
+   "url": "https://davidptcg.nl/product/one-piece-heroines-edition-booster-box-eb03/"
+  },
+  "3202": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet White Flare Booster Bundle Display",
+   "price": 469.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-white-flare-booster-bundle-display/"
+  },
+  "3204": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes First Partners Deluxe Pin Collection",
+   "price": 69.95,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-first-partners-deluxe-pin-collection/"
+  },
+  "3206": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Ascended Heroes EX Box",
+   "price": 54.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-ascended-heroes-ex-box/"
+  },
+  "3211": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Charizard X/Y EX-Tin CASE PRE-ORDER",
+   "price": 184.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-charizard-x-y-ex-tin-case-pre-order/"
+  },
+  "3213": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon First Partner Illustration Collection",
+   "price": 71.95,
+   "url": "https://davidptcg.nl/product/pokemon-first-partner-illustration-collection/"
+  },
+  "3217": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon 2026 Pokémon Day Collection CASE",
+   "price": 144.95,
+   "url": "https://davidptcg.nl/product/pokemon-2026-pokemon-day-collection-case/"
+  },
+  "3219": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Charizard Y/X EX-Tin",
+   "price": 34.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-charizard-y-x-ex-tin/"
+  },
+  "3221": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Twilight Masquerade 6 Booster Box Case",
+   "price": 1599.0,
+   "url": "https://davidptcg.nl/product/pokemon-twilight-masquerade-6-booster-box-case/"
+  },
+  "3223": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon 2026 Day Collection + Ascended Heroes Tech Sticker Collection BUNDLE",
+   "price": 49.95,
+   "url": "https://davidptcg.nl/product/pokemon-2026-day-collection-ascended-heroes-tech-sticker-collection-bundle/"
+  },
+  "3225": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Team Rocket’s Moltres Ultra Premium Collection Box",
+   "price": 224.95,
+   "url": "https://davidptcg.nl/product/pokemon-team-rockets-moltres-ultra-premium-collection-box/"
+  },
+  "3227": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Perfect Order Elite Trainer Box",
+   "price": 69.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-perfect-order-elite-trainer-box/"
+  },
+  "3229": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Perfect Order Booster Box",
+   "price": 169.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-perfect-order-booster-box/"
+  },
+  "3231": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes Booster Bundles Pre-Order",
+   "price": 39.95,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-booster-bundles-pre-order/"
+  },
+  "3233": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Paldean Fates Booster Bundle",
+   "price": 109.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paldean-fates-booster-bundle/"
+  },
+  "3235": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Riftbound League of Legends Boosterbox Case",
+   "price": 1149.95,
+   "url": "https://davidptcg.nl/product/riftbound-league-of-legends-boosterbox-case/"
+  },
+  "3237": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Journey Together Booster Box Case",
+   "price": 1199.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-journey-together-booster-box-case/"
+  },
+  "3239": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Paldean Fates Booster Bundle Display Kleine Scheur",
+   "price": 1799.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paldean-fates-booster-bundle-display/"
+  },
+  "3241": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Dream Booster Box",
+   "price": 74.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-dream-booster-box/"
+  },
+  "3243": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Inferno X Booster Box",
+   "price": 89.95,
+   "url": "https://davidptcg.nl/product/pokemon-inferno-x-booster-box/"
+  },
+  "3245": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Journey Together Booster Box Case",
+   "price": 1200.0,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-journey-together-booster-box-case-2/"
+  },
+  "3247": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Charizard EX Super Premium Collection DAMAGED",
+   "price": 69.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-charizard-ex-super-premium-collection-damaged/"
+  },
+  "3250": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals Booster Bundle",
+   "price": 62.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-booster-bundle/"
+  },
+  "3252": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet 151 Mini Tin Display",
+   "price": 459.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-mini-tin-display/"
+  },
+  "3254": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Phantasmal Flames Booster Bundle",
+   "price": 39.95,
+   "url": "https://davidptcg.nl/product/pokemon-phantasmal-flames-booster-bundle/"
+  },
+  "3256": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Pokéball Tin Q4 2025",
+   "price": 17.95,
+   "url": "https://davidptcg.nl/product/pokemon-pokeball-tin-q4-2025/"
+  },
+  "3260": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon 2026 Pokémon Day Collection",
+   "price": 29.95,
+   "url": "https://davidptcg.nl/product/pokemon-2026-pokemon-day-collection/"
+  },
+  "3262": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Greninja Ex &amp; Kingdra Ex Special Collection",
+   "price": 59.95,
+   "url": "https://davidptcg.nl/product/pokemon-greninja-ex-kingdra-ex-special-collection/"
+  },
+  "3264": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Snorlax Blissey Ex special collection",
+   "price": 64.95,
+   "url": "https://davidptcg.nl/product/pokemon-snorlax-blissey-ex-special-collection/"
+  },
+  "3266": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Kangaskhan ex Box",
+   "price": 22.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-kangaskhan-ex-box/"
+  },
+  "3268": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Surging Sparks Booster Box Case",
+   "price": 1799.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-surging-sparks-booster-box-case/"
+  },
+  "3270": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution 3 Pack Blister Psyduck Golduck COMBI",
+   "price": 47.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-3-pack-blister-psyduck-golduck-combi/"
+  },
+  "3272": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Venusaur ex Premium Collection",
+   "price": 44.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-venusaur-ex-premium-collection/"
+  },
+  "3274": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes 2 pack Blister Collection",
+   "price": 20.95,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-2-pack-blister-collection/"
+  },
+  "3277": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes Booster",
+   "price": 12.5,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-booster/"
+  },
+  "3279": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes Mini Tin Display",
+   "price": 229.99,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-mini-tin-display/"
+  },
+  "3282": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Ascended Heroes Tech Sticker Collection PRE-ORDER",
+   "price": 25.95,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-tech-sticker-collection-pre-order/"
+  },
+  "3288": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Ascended Heroes Elite Trainer Box",
+   "price": 159.99,
+   "url": "https://davidptcg.nl/product/pokemon-ascended-heroes-elite-trainer-box/"
+  },
+  "3292": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Phantasmal Flames Booster Pack",
+   "price": 6.95,
+   "url": "https://davidptcg.nl/product/phantasmal-flames-booster-pack/"
+  },
+  "3294": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Mega Evolution Booster 10X BUNDLE",
+   "price": 64.95,
+   "url": "https://davidptcg.nl/product/mega-evolution-booster-10x-bundle/"
+  },
+  "3296": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Phantasmal Flames Premium Checklane Blister &#8211; Blaziken/Hydrapple",
+   "price": 8.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-phantasmal-flames-premium-checklane-blister-blaziken-hydrapple/"
+  },
+  "3298": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Phantasmal Flames 3Pack Blister Weavile/Sneasel",
+   "price": 19.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-phantasmal-flames-3pack-blister-weavile-sneasel/"
+  },
+  "3300": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Lugia ex Special Collection",
+   "price": 59.95,
+   "url": "https://davidptcg.nl/product/pokemon-lugia-ex-special-collection/"
+  },
+  "3302": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Heroes Mini Tin Display",
+   "price": 164.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-heroes-mini-tin-display/"
+  },
+  "3304": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Phantasmal Flames Elite Trainer Box",
+   "price": 114.99,
+   "url": "https://davidptcg.nl/product/pokemon-phantasmal-flames-elite-trainer-box/"
+  },
+  "3306": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Phantasmal Flames Booster Box Case",
+   "price": 2099.0,
+   "url": "https://davidptcg.nl/product/phantasmal-flames-booster-box-case/"
+  },
+  "3312": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution 3 Pack Blister Golduck",
+   "price": 24.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-3-pack-blister-golduck/"
+  },
+  "3314": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Prismatic Evolutions Premium Figure Collection",
+   "price": 194.95,
+   "url": "https://davidptcg.nl/product/pokemon-prismatic-evolutions-premium-figure-collection/"
+  },
+  "3316": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet: 151 Boosterpack BUNDLE 10X",
+   "price": 140.0,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-boosterpack-bundle-10x/"
+  },
+  "3318": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Mega Evolution Booster Pack",
+   "price": 6.95,
+   "url": "https://davidptcg.nl/product/mega-evolution-booster-pack/"
+  },
+  "3320": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokemon Journey Together Enhanced Booster Box",
+   "price": 259.95,
+   "url": "https://davidptcg.nl/product/pokemon-journey-together-enhanced-booster-box/"
+  },
+  "3322": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Phantasmal Flames Booster Box",
+   "price": 329.95,
+   "url": "https://davidptcg.nl/product/pokemon-phantasmal-flames-booster-box/"
+  },
+  "3325": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Charizard X ex Ultra Premium Collection",
+   "price": 229.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-charizard-x-ex-ultra-premium-collection/"
+  },
+  "3329": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Stellar Crown Booster Box 18 boosters",
+   "price": 119.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-stellar-crown-booster-box-18-boosters/"
+  },
+  "3331": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Surging Sparks Booster Box 18 boosters",
+   "price": 149.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-surging-sparks-booster-box-18-boosters/"
+  },
+  "3333": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals Booster Box 18 boosters",
+   "price": 174.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-booster-box-18-boosters/"
+  },
+  "3335": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Booster Box SCHEUR IN SEAL",
+   "price": 234.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-booster-box-scheur-in-seal/"
+  },
+  "3337": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Elite Trainer Box Lucario",
+   "price": 94.95,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-elite-trainer-box-lucario/"
+  },
+  "3339": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Elite Trainer Box Gardevoir",
+   "price": 104.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-elite-trainer-box-gardevoir/"
+  },
+  "3341": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Booster Box",
+   "price": 279.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-booster-box/"
+  },
+  "3343": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Mega Heroes Mini Tin (random art)",
+   "price": 16.95,
+   "url": "https://davidptcg.nl/product/mega-heroes-mini-tin-random-art/"
+  },
+  "3346": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Mega Latias ex Box",
+   "price": 24.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-mega-latias-ex-box/"
+  },
+  "3348": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals Booster Box Case",
+   "price": 2399.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-booster-box-case/"
+  },
+  "3350": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Shiny Treasure EX Booster Box SV4A",
+   "price": 84.95,
+   "url": "https://davidptcg.nl/product/pokemon-shiny-treasure-ex-booster-box-sv4a/"
+  },
+  "3352": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Infernape V Box",
+   "price": 49.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-infernape-v-box/"
+  },
+  "3354": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Mini Tin Display",
+   "price": 239.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-mini-tin-display/"
+  },
+  "3356": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Booster Bundle Display",
+   "price": 1199.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-booster-bundle-display/"
+  },
+  "3358": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet 151 Booster Bundle Display *SMALL DAMAGE*",
+   "price": 1599.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-booster-bundle-display-small-damage/"
+  },
+  "3364": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield: Pokemon GO Booster Pack",
+   "price": 6.45,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-pokemon-go-booster-pack/"
+  },
+  "3366": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet: Paradox Rift Booster Pack",
+   "price": 5.45,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paradox-rift-booster-pack/"
+  },
+  "3368": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet: Stellar Crown Booster Pack",
+   "price": 5.45,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-stellar-crown-booster-pack/"
+  },
+  "3370": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet White Flare Booster Bundle",
+   "price": 64.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-white-flare-booster-bundle/"
+  },
+  "3372": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Black Bolt Booster Bundle",
+   "price": 49.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-black-bolt-booster-bundle/"
+  },
+  "3374": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet 151 Mini Tin",
+   "price": 49.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-mini-tin/"
+  },
+  "3378": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet White Flare Sticker Collection",
+   "price": 20.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-white-flare-sticker-collection/"
+  },
+  "3380": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Black Bolt Sticker Collection",
+   "price": 22.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-black-bolt-sticker-collection/"
+  },
+  "3382": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Black Bolt White Flare Unova Victini Illustration Collection",
+   "price": 49.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-black-bolt-white-flare-unova-victini-illustration-collection/"
+  },
+  "3384": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Black Bolt / White Flare Elite Trainer Box BUNDLE",
+   "price": 159.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-black-bolt-white-flare-elite-trainer-box-bundle/"
+  },
+  "3388": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Black Bolt &amp; White Flare – Mini Tin Unova",
+   "price": 16.95,
+   "url": "https://davidptcg.nl/product/pokemon-black-bolt-white-flare-mini-tin-unova/"
+  },
+  "3390": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet White Flare Elite Trainer Box SCHEUR IN SEAL",
+   "price": 74.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-white-flare-elite-trainer-box-scheur-in-seal/"
+  },
+  "3393": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Black Bolt Elite Trainer Box SCHEUR IN SEAL",
+   "price": 79.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-black-bolt-elite-trainer-box-scheur-in-seal/"
+  },
+  "3398": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet White Flare Booster Pack",
+   "price": 8.45,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-white-flare-booster-pack/"
+  },
+  "3400": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Black Bolt Booster Pack",
+   "price": 7.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-black-bolt-booster-pack/"
+  },
+  "3402": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Black Bolt White Flare Unova Poster Collection",
+   "price": 29.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-black-bolt-white-flare-unova-poster-collection/"
+  },
+  "3404": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Twilight Masquerade 3 Pack Blister Snorlax",
+   "price": 17.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-twilight-masquerade-3-pack-blister-snorlax/"
+  },
+  "3406": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Cynthia’s Garchomp EX Premium Collection",
+   "price": 47.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-cynthias-garchomp-ex-premium-collection/"
+  },
+  "3409": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Team Rocket’s Mewtwo EX Box",
+   "price": 44.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-team-rockets-mewtwo-ex-box/"
+  },
+  "3411": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Black Bolt Elite Trainer Box",
+   "price": 129.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-black-bolt-elite-trainer-box/"
+  },
+  "3414": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet White Flare Elite Trainer Box",
+   "price": 114.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-white-flare-elite-trainer-box/"
+  },
+  "3417": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Booster pack",
+   "price": 4.75,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-booster-pack/"
+  },
+  "3419": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Charizard EX Special Collection",
+   "price": 48.99,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-charizard-ex-special-collection/"
+  },
+  "3422": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Evolving Skies Checklane Blister Slowpoke",
+   "price": 39.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-evolving-skies-checklane-blister-slowpoke/"
+  },
+  "3424": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Evolving Skies Checklane Blister Eevee",
+   "price": 39.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-evolving-skies-checklane-blister-eevee/"
+  },
+  "3426": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon sv11W White Flare Japanse Boosterbox",
+   "price": 94.95,
+   "url": "https://davidptcg.nl/product/pokemon-sv11w-white-flare-japanse-boosterbox/"
+  },
+  "3430": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Slashing Legends EX Tin Zacian",
+   "price": 24.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-slashing-legends-ex-tin-zacian/"
+  },
+  "3433": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Slashing Legends EX Tin Koraidon",
+   "price": 24.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-slashing-legends-ex-tin-koraidon/"
+  },
+  "3436": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet: Obsidian Flames Booster Pack",
+   "price": 6.45,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-obsidian-flames-booster-pack/"
+  },
+  "3438": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Paradox Rift Elite Trainer Box Iron Valiant",
+   "price": 64.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paradox-rift-elite-trainer-box-iron-valiant/"
+  },
+  "3440": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals Booster Box MAX 1PP KAPOTTE SEAL",
+   "price": 219.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-booster-box-max-1pp-kapotte-seal/"
+  },
+  "3442": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals Premium Checklane Blister Fuecoco",
+   "price": 7.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-premium-checklane-blister-fuecoco/"
+  },
+  "3444": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals 3 Pack Blister Kangaskhan",
+   "price": 24.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-3-pack-blister-kangaskhan/"
+  },
+  "3446": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Booster Bundle",
+   "price": 94.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-booster-bundle/"
+  },
+  "3448": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals Booster Pack",
+   "price": 8.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-booster-pack/"
+  },
+  "3450": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Hop’s Zacian ex Box",
+   "price": 25.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-hops-zacian-ex-box/"
+  },
+  "3454": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals 3 Pack Blister Zebstrika",
+   "price": 24.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-3-pack-blister-zebstrika/"
+  },
+  "3456": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals Booster Box",
+   "price": 369.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-booster-box/"
+  },
+  "3458": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Destined Rivals Elite Trainer Box",
+   "price": 189.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-destined-rivals-elite-trainer-box/"
+  },
+  "3460": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Shrouded Fable Boosterpack",
+   "price": 4.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-shrouded-fable-boosterpack/"
+  },
+  "3462": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Super Premium Collection",
+   "price": 329.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-super-premium-collection-acryl/"
+  },
+  "3464": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet: Twilight Masquerade Booster Pack",
+   "price": 5.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-twilight-masquerade-booster-pack/"
+  },
+  "3466": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet: Surging Sparks Boosterpack",
+   "price": 6.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-surging-sparks-boosterpack/"
+  },
+  "3468": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG Astral Radiance Build and Battle Stadium Box",
+   "price": 59.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-astral-radiance-build-and-battle-stadium-box/"
+  },
+  "3471": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet: Temporal Forces Booster Pack",
+   "price": 5.45,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-temporal-forces-booster-pack/"
+  },
+  "3473": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield: Astral Radiance Boosterpack",
+   "price": 5.49,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-astral-radiance-boosterpack/"
+  },
+  "3475": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet: 151 Booster Pack",
+   "price": 15.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-booster-pack/"
+  },
+  "3477": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet: Paldea Evolved Boosterpack",
+   "price": 6.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paldea-evolved-boosterpack/"
+  },
+  "3479": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Mimikyu EX Box",
+   "price": 52.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-mimikyu-ex-box/"
+  },
+  "3481": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Iono&#8217;s Bellibolt ex Premium Collection",
+   "price": 42.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-ionos-bellibolt-ex-premium-collection/"
+  },
+  "3484": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Paldean Fates Tech Sticker Collection",
+   "price": 24.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paldean-fates-tech-sticker-collection/"
+  },
+  "3486": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Booster Pack",
+   "price": 9.45,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-booster-pack/"
+  },
+  "3488": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Accessory Pouch Special Collection",
+   "price": 52.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-accessory-pouch-special-collection/"
+  },
+  "3492": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Shrouded Fable Mini Tin (Random Art)",
+   "price": 11.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-shrouded-fable-mini-tin-random-art/"
+  },
+  "3494": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Back To School Collection Chest 2024",
+   "price": 34.95,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-back-to-school-collection-chest-2024/"
+  },
+  "3500": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Paradox Destinies Tin Set &#8211; Gouging Fire",
+   "price": 21.95,
+   "url": "https://davidptcg.nl/product/paradox-destinies-tin-set-gouging-fire/"
+  },
+  "3502": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Terapagos EX Ultra Premium Collection",
+   "price": 99.99,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-terapagos-ex-ultra-premium-collection/"
+  },
+  "3504": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon TCG: Grafaiai EX Box",
+   "price": 19.99,
+   "url": "https://davidptcg.nl/product/pokemon-tcg-grafaiai-ex-box/"
+  },
+  "3508": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Journey Together Booster pack",
+   "price": 5.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-journey-together-booster-pack/"
+  },
+  "3510": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Stellar Crown Booster Box JP",
+   "price": 52.49,
+   "url": "https://davidptcg.nl/product/pokemon-stellar-crown-booster-box-jp/"
+  },
+  "3512": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Journey Together Booster Bundles",
+   "price": 44.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-journey-together-booster-bundles/"
+  },
+  "3516": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Silver Tempest Booster Box + Acryl",
+   "price": 399.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-silver-tempest-booster-box-acryl/"
+  },
+  "3522": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Journey Together Elite Trainer Box",
+   "price": 69.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-journey-together-elite-trainer-box/"
+  },
+  "3524": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Journey Together Booster Box",
+   "price": 199.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-journey-together-booster-box/"
+  },
+  "3526": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Tech Sticker Collection",
+   "price": 37.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-tech-sticker-collection/"
+  },
+  "3528": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Silver Tempest Booster Pack",
+   "price": 7.45,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-silver-tempest-booster-pack/"
+  },
+  "3530": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Evolving Skies Boosterpack",
+   "price": 25.95,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-evolving-skies-boosterpack/"
+  },
+  "3532": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Poster Collection",
+   "price": 34.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-poster-collection/"
+  },
+  "3534": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Lost Origin Elite Trainer Box",
+   "price": 109.95,
+   "url": "https://davidptcg.nl/product/pokemon-lost-origin-elite-trainer-box/"
+  },
+  "3536": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Back to school Charizard Potlood Case",
+   "price": 10.99,
+   "url": "https://davidptcg.nl/product/pokemon-back-to-school-charizard-potlood-case/"
+  },
+  "3538": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &amp; Shield Lost Origin Boosterpack",
+   "price": 8.95,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-lost-origin-boosterpack/"
+  },
+  "3542": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Surprise Box",
+   "price": 63.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-surprise-box/"
+  },
+  "3544": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Elite Trainer Box",
+   "price": 179.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-elite-trainer-box/"
+  },
+  "3546": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Surging Sparks Elite Trainer Box",
+   "price": 114.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-surging-sparks-elite-trainer-box/"
+  },
+  "3548": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Surging Sparks Booster Box",
+   "price": 289.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-surging-sparks-booster-box/"
+  },
+  "3550": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Stellar Crown Elite Trainer Box",
+   "price": 99.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-stellar-crown-elite-trainer-box/"
+  },
+  "3552": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Stellar Crown Booster Box",
+   "price": 249.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-stellar-crown-booster-box/"
+  },
+  "3554": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Shrouded Fable Elite Trainer Box",
+   "price": 46.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-shrouded-fable-elite-trainer-box/"
+  },
+  "3556": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Temporal Forces Booster Box",
+   "price": 219.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-temporal-forces-booster-box/"
+  },
+  "3558": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Paldean Fates Elite Trainer Box",
+   "price": 329.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paldean-fates-elite-trainer-box/"
+  },
+  "3560": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Obsidian Flames Elite Trainer Box",
+   "price": 299.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-obsidian-flames-elite-trainer-box/"
+  },
+  "3562": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Twilight Masquerade Elite Trainer Box",
+   "price": 99.95,
+   "url": "https://davidptcg.nl/product/pokemon-twilight-masquerade-elite-trainer-box/"
+  },
+  "3564": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Twilight Masquerade Booster Box",
+   "price": 299.99,
+   "url": "https://davidptcg.nl/product/pokemon-twilight-masquerade-booster-box/"
+  },
+  "3566": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Paradox Rift Booster Box",
+   "price": 229.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paradox-rift-booster-box/"
+  },
+  "3568": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet 151 Blooming Waters Premium Collection",
+   "price": 319.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-blooming-waters-premium-collection/"
+  },
+  "3570": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Surging Sparks Elite Trainer Box Case",
+   "price": 999.95,
+   "url": "https://davidptcg.nl/product/pokemon-surging-sparks-elite-trainer-box-case/"
+  },
+  "3572": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mystery Singles Box",
+   "price": 49.99,
+   "url": "https://davidptcg.nl/product/pokemon-mystery-singles-box/"
+  },
+  "3574": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mystery Singles Box",
+   "price": 9.99,
+   "url": "https://davidptcg.nl/product/pokemon-mystery-singles-box-2/"
+  },
+  "3576": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Paradox Rift Elite Trainer Box Roaring Moon",
+   "price": 69.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paradox-rift-elite-trainer-box-roaring-moon/"
+  },
+  "3578": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mask of change sv6 booster Box JP",
+   "price": 54.99,
+   "url": "https://davidptcg.nl/product/pokemon-mask-of-change-sv6-booster-box-jp/"
+  },
+  "3580": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Prismatic Evolutions Mini Tin (Willekeurig)",
+   "price": 21.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-prismatic-evolutions-mini-tin-willekeurig/"
+  },
+  "3582": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet 151 Booster Bundles",
+   "price": 169.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-booster-bundles/"
+  },
+  "3584": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Shrouded Fable Booster Bundle",
+   "price": 27.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-shrouded-fable-booster-bundle/"
+  },
+  "3586": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Paldea evolved Booster Box Case",
+   "price": 2299.95,
+   "url": "https://davidptcg.nl/product/pokemon-paldea-evolved-booster-box-case/"
+  },
+  "3588": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Paldea Evolved Booster Box + Acryl",
+   "price": 349.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paldea-evolved-booster-box-acryl/"
+  },
+  "3592": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Booster Box",
+   "price": 174.95,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-booster-box/"
+  },
+  "3594": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &amp; Violet Shrouded Fable Booster Bundle Display",
+   "price": 234.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-shrouded-fable-booster-bundle-display/"
+  },
+  "3606": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Chaos Rising Booster Bundle",
+   "price": 43.95,
+   "url": "https://davidptcg.nl/product/pokemon-chaos-rising-booster-bundle/"
+  },
+  "3619": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Lumiose City Mini Tin Display",
+   "price": 144.99,
+   "url": "https://davidptcg.nl/product/pokemon-lumiose-city-mini-tin-display/"
+  },
+  "3623": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Chaos Rising Booster Box Case",
+   "price": 1249.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-chaos-rising-booster-box-case/"
+  },
+  "3626": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &#038; Shield Evolving Skies Booster Box",
+   "price": 2299.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-evolving-skies-booster-box/"
+  },
+  "3628": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Booster Box Case",
+   "price": 1999.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-booster-box-case/"
+  },
+  "3630": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Chaos Rising 3-Pack Blister Charmeleon",
+   "price": 20.99,
+   "url": "https://davidptcg.nl/product/pokemon-chaos-rising-3-pack-blister-charmeleon/"
+  },
+  "3633": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Chaos Rising Booster Pack",
+   "price": 6.45,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-chaos-rising-booster-pack/"
+  },
+  "3635": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &#038; Violet Temporal Forces Iron Leaves Elite Trainer Box",
+   "price": 94.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-temporal-forces-iron-leaves-elite-trainer-box/"
+  },
+  "3636": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &#038; Violet Koraidon Elite Trainer Box",
+   "price": 109.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-koraidon-elite-trainer-box/"
+  },
+  "3639": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &#038; Violet Miraidon Elite Trainer Box",
+   "price": 119.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-miraidon-elite-trainer-box/"
+  },
+  "3642": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Evolution Chaos Rising Elite Trainer Box Case",
+   "price": 839.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-evolution-chaos-rising-elite-trainer-box-case/"
+  },
+  "3645": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Perfect Order Pokémon Center Elite Trainer Box",
+   "price": 139.99,
+   "url": "https://davidptcg.nl/product/pokemon-center-perfect-order-elite-trainer-box/"
+  },
+  "3647": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Celebrations Elite Trainer Box",
+   "price": 339.99,
+   "url": "https://davidptcg.nl/product/pokemon-celebrations-elite-trainer-box/"
+  },
+  "3649": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &#038; Violet 151 Elite Trainer Box",
+   "price": 474.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-elite-trainer-box/"
+  },
+  "3651": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &#038; Violet 151 Pokemon Center Elite Trainer Box",
+   "price": 1299.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-pokemon-center-elite-trainer-box/"
+  },
+  "3653": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Zygarde Premium ex Box",
+   "price": 53.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-zygarde-premium-ex-box/"
+  },
+  "3655": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &#038; Violet 151 Ultra Premium Collection",
+   "price": 769.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-151-ultra-premium-collection/"
+  },
+  "3657": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Marnie Rival Battle Deck",
+   "price": 49.99,
+   "url": "https://davidptcg.nl/product/pokemon-marnie-rival-battle-deck/"
+  },
+  "3659": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Fukuoka Pikachu Pokémon Center Exclusive Box",
+   "price": 169.99,
+   "url": "https://davidptcg.nl/product/fukuoka-pikachu-pokemon-center-exclusive-box/"
+  },
+  "3661": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "McDonald’s Pikachu 2025 Promo Pack (M-P 020)",
+   "price": 27.99,
+   "url": "https://davidptcg.nl/product/mcdonalds-pikachu-2025-promo-pack-m-p-020/"
+  },
+  "3663": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Clefable / Mega Gengar ex Tin COMBI",
+   "price": 59.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-clefable-mega-gengar-ex-tin-combi/"
+  },
+  "3665": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Lucario ex League Battle Deck",
+   "price": 24.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-lucario-ex-league-battle-deck/"
+  },
+  "3667": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Mega Lucario ex Figure Collection",
+   "price": 49.99,
+   "url": "https://davidptcg.nl/product/pokemon-mega-lucario-ex-figure-collection/"
+  },
+  "3670": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Sword &#038; Shield Astral Radiance Booster Box",
+   "price": 349.99,
+   "url": "https://davidptcg.nl/product/pokemon-sword-shield-astral-radiance-booster-box/"
+  },
+  "3674": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Scarlet &#038; Violet Paldean Fates Premium Collection Quaquaval Skeledirge Meowscarada EX",
+   "price": 159.99,
+   "url": "https://davidptcg.nl/product/pokemon-scarlet-violet-paldean-fates-premium-collection-quaquaval-skeledirge-meowscarada-ex/"
+  },
+  "3885": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Pitch Black Booster Box",
+   "price": 219.99,
+   "url": "https://davidptcg.nl/product/pokemon-pitch-black-booster-box/"
+  },
+  "3887": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Pitch Black Elite Trainer Box",
+   "price": 79.99,
+   "url": "https://davidptcg.nl/product/pokemon-pitch-black-elite-trainer-box/"
+  },
+  "3892": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": false,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Pitch Black Booster Bundle",
+   "price": 44.99,
+   "url": "https://davidptcg.nl/product/pokemon-pitch-black-booster-bundle/"
+  },
+  "3907": {
+   "first_seen": "2026-09-08T06:27:47+00:00",
+   "in_stock": true,
+   "last_seen": "2026-09-08T06:27:47+00:00",
+   "name": "Pokémon Pitch Black Binacle 3-Pack Blister",
+   "price": 21.99,
+   "url": "https://davidptcg.nl/product/pokemon-pitch-black-binacle-3-pack-blister/"
+  }
+ },
+ "updated": "2026-09-08T06:27:47+00:00"
+}
