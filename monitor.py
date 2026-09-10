@@ -420,6 +420,13 @@ def check_site(site: dict, notifier: Notifier, settings: dict, dry_run: bool) ->
                     events.append({"type": "price", "p": p, "old_price": old_price})
 
     # Producten die verdwenen zijn: uit de state halen (niet melden).
+    if first_run and not products:
+        # Levert een shop niets op (verkeerd filter of lege API), dan blijft
+        # de state leeg en zou hij zich elke run opnieuw als "nieuw" melden.
+        # Daarom hier stoppen zonder melding.
+        log(f"{name}: 0 producten — controleer het include-filter")
+        return {"seeded": None, "count": 0, "events": 0}
+
     if first_run:
         log(f"{name}: eerste run — {len(products)} producten vastgelegd, geen meldingen")
     else:
