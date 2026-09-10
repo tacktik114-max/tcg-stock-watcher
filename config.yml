@@ -86,14 +86,6 @@ sites:
     include: ["pokémon", "pokemon"]
     exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
 
-  - name: Kyaro
-    enabled: true
-    adapter: shopify
-    base_url: https://kyaro.nl
-    max_pages: 4
-    include: []          # gaf 0 na filters: shop zet "Pokémon" niet in de titel
-    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box"]
-
   - name: TcgHolland
     enabled: true
     adapter: shopify

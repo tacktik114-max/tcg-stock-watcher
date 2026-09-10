@@ -46,12 +46,22 @@ SHOPS = [
     "https://arlytrading.nl",
     "https://nerdup.nl",
     "https://zycards.nl",
-    "https://kyaro.nl",
     "https://2hg.nl",
     "https://tcgholland.com",
     "https://tcgtwan.nl",
     "https://mintyfresh.eu",
     "https://dacardworld.eu",
+    # --- nieuwe kandidaten (sept 2026), nog niet getest ---
+    "https://kaartkamer.nl",
+    "https://pokemagic.nl",
+    "https://www.pkmncardshop.nl",
+    "https://pokefamily.nl",
+    "https://www.pkmwinkel.nl",
+    "https://monkeltcg.nl",
+    "https://derwincollectables.nl",
+    "https://jaggazard.nl",
+    "https://mysticcollectors.com",
+    "https://www.2ttoys.nl",
 ]
 
 PLATFORM_HINTS = [
@@ -79,18 +89,34 @@ def detect_platform(html: str) -> str:
     return "unknown"
 
 
-def count_products(data) -> int:
-    if isinstance(data, list):
-        return len(data)
-    if isinstance(data, dict):
-        return len(data.get("products", []))
-    return 0
+def product_names(data) -> list[str]:
+    items = data if isinstance(data, list) else (data.get("products", []) if isinstance(data, dict) else [])
+    names = []
+    for it in items:
+        if isinstance(it, dict):
+            names.append(str(it.get("name") or it.get("title") or "?"))
+    return names
+
+
+TCG_WORDS = ["pokémon", "pokemon", "booster", "elite trainer", "etb", "tcg",
+             "trading card", "yu-gi-oh", "yugioh", "magic the gathering", "mtg",
+             "one piece", "lorcana", "kaart", "card"]
+
+
+def tcg_share(names: list[str]) -> float:
+    """Welk deel van de producten lijkt op kaartspullen? Zo filteren we
+    shops eruit die iets heel anders verkopen."""
+    if not names:
+        return 0.0
+    hits = sum(1 for n in names if any(w in n.lower() for w in TCG_WORDS))
+    return hits / len(names)
 
 
 def test_shop(base: str) -> dict:
     base = base.rstrip("/")
     result = {"url": base, "reachable": False, "platform": "?",
-              "adapter": None, "endpoint": None, "count": 0, "note": ""}
+              "adapter": None, "endpoint": None, "count": 0, "note": "",
+              "samples": [], "tcg": 0.0}
 
     session = requests.Session()
     session.headers.update(BROWSER)
@@ -129,12 +155,14 @@ def test_shop(base: str) -> dict:
             result["note"] = "API geeft geen JSON"
             continue
 
-        n = count_products(data)
-        if n:
+        names = product_names(data)
+        if names:
             result["adapter"] = "shopify" if "products.json" in path else "woocommerce"
             result["endpoint"] = path.split("?")[0]
-            result["count"] = n
-            result["note"] = "OK"
+            result["count"] = len(names)
+            result["samples"] = names[:3]
+            result["tcg"] = tcg_share(names)
+            result["note"] = "OK" if result["tcg"] >= 0.4 else "LET OP: lijkt geen TCG-shop"
             return result
 
     if not result["note"]:
@@ -153,12 +181,16 @@ def main() -> int:
         print(f"[{i}/{len(shops)}] {shop}", flush=True)
         res = test_shop(shop)
         results.append(res)
-        status = "✓" if res["adapter"] else "✗"
-        print(f"    {status} bereikbaar={res['reachable']} platform={res['platform']} "
-              f"adapter={res['adapter']} producten={res['count']} — {res['note']}\n", flush=True)
+        status = "✓" if res["adapter"] and res["tcg"] >= 0.4 else ("!" if res["adapter"] else "✗")
+        print(f"    {status} platform={res['platform']} adapter={res['adapter']} "
+              f"kaartspullen={res['tcg']:.0%} — {res['note']}", flush=True)
+        for sample in res["samples"]:
+            print(f"        · {sample[:70]}", flush=True)
+        print(flush=True)
         time.sleep(2)
 
-    ok = [r for r in results if r["adapter"]]
+    ok = [r for r in results if r["adapter"] and r["tcg"] >= 0.4]
+    wrong = [r for r in results if r["adapter"] and r["tcg"] < 0.4]
     reachable_no_api = [r for r in results if r["reachable"] and not r["adapter"]]
     blocked = [r for r in results if not r["reachable"]]
 
@@ -170,6 +202,12 @@ def main() -> int:
         print("Geblokkeerd (niet te monitoren vanaf GitHub):")
         for r in blocked:
             print(f"  - {r['url']}: {r['note']}")
+        print()
+
+    if wrong:
+        print("Werkt technisch, maar verkoopt geen kaarten — NIET toevoegen:")
+        for r in wrong:
+            print(f"  - {r['url']}: voorbeeld \"{(r['samples'] or ['?'])[0][:50]}\"")
         print()
 
     if reachable_no_api:
