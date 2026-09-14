@@ -62,6 +62,9 @@ SHOPS = [
     "https://jaggazard.nl",
     "https://mysticcollectors.com",
     "https://www.2ttoys.nl",
+    # --- nieuwe kandidaten (sept 2026) ---
+    "https://pocketgames.nl",
+    "https://tcgcenter.nl",
 ]
 
 PLATFORM_HINTS = [
