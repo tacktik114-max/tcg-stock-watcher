@@ -127,14 +127,6 @@ sites:
     exclude: ["sleeve", "toploader", "binder", "playmat", "deck box", "plush", "funko"]
 
   # ===== WooCommerce ============================================
-  - name: CeesCards
-    enabled: true
-    adapter: woocommerce
-    base_url: https://ceescards.eu
-    max_pages: 6
-    include: ["pokémon", "pokemon"]
-    exclude: ["sleeve", "toploader", "binder", "playmat", "deck box", "plush", "funko"]
-
   - name: PKMkaarten
     enabled: true
     adapter: woocommerce
