@@ -152,7 +152,7 @@ sites:
     exclude: ["sleeve", "toploader", "binder", "playmat", "deck box", "plush", "funko"]
 
   - name: ArlyTrading
-    enabled: true
+    enabled: false
     adapter: woocommerce
     base_url: https://arlytrading.nl
     max_pages: 6
